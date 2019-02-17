@@ -1,0 +1,40 @@
+body p {
+    color: darkslateblue;
+}
+* {
+    background-color: blanchedalmond;
+}
+.heading {
+    background-color: aquamarine;
+    color: brown;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.input {
+    width: 100px;
+    box-sizing: border-box;
+    margin: 6px 0;
+    background-color: darkgray;
+    padding: 12px 18px;
+    height: 20px;
+    border: 2px;
+    border-radius: 4px;
+}
+#input {
+    border: 0;
+    width: 65%;
+    margin: 20%;
+    background-color: aliceblue;
+    margin-top: 0%;
+}
+input[type=text]:focus {
+    background-color: rgb(188, 238, 138);
+    border: 3px solid rgb(188, 238, 138);
+}
+p label {
+
+}
+.wide {
+    width: 100%;
+    background-color: aquamarine;
+}
