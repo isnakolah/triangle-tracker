@@ -19,6 +19,8 @@ body p {
     height: 20px;
     border: 2px;
     border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: saddlebrown;
 }
 #input {
     border: 0;

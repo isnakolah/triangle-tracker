@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="js/scripts.js" ></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script>alert("    Hello \n    Feel free to try out your measurements  :)\n    Get to know what triangles it forms.\n    Have fun!!  ;) ")</script>
 </head>
 <body>
     <div>
@@ -22,8 +22,12 @@
           <input type="number" name="sideB" value="" id="sideB" min="0.01" step="0.01" class="input"><br><br> <!--This implies that it has an Id of sideB for refrencing with the javascript and a minimum value of 0.01 and maximum of two decimal places-->
           <label for="sideC">Side 3:</label>
           <input type="number" name="sideC" value="" id="sideC" min="0.01" step="0.01" class="input"><br><br> 
-          <button type="button" name="submit_button" id="submitButton" onclick="start()")>Submit</button>
+          <button onclick="submitIt()" id="submitButton">Submit</button>
         </form>
   </div> 
 </body>
+<footer>
+  <!--Making the html file to load first then the javascript file later-->
+  <script type="text/javascript" src="js/scripts.js" ></script>
+</footer>
 </html>
