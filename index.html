@@ -15,15 +15,15 @@
         </div>
         <p>Input the values to know what type of triangle it is.</p>
         <!--Making the inputs for the sides and making a minimum value-->
-        <div id="input">
+        <form id="input">
           <label for="sideA">Side 1:</label> 
           <input type="number" name="sideA" value="" id="sideA" min="0.01" step="0.01" class="input"><br><br>
           <label for="sideB">Side 2:</label>
           <input type="number" name="sideB" value="" id="sideB" min="0.01" step="0.01" class="input"><br><br> <!--This implies that it has an Id of sideB for refrencing with the javascript and a minimum value of 0.01 and maximum of two decimal places-->
           <label for="sideC">Side 3:</label>
           <input type="number" name="sideC" value="" id="sideC" min="0.01" step="0.01" class="input"><br><br> 
-        </div>
-    <button type="submit" id="submitButton" onclick="start()")>Submit</button>
+          <button type="button" name="submit_button" id="submitButton" onclick="start()")>Submit</button>
+        </form>
   </div> 
 </body>
 </html>

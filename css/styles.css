@@ -26,15 +26,36 @@ body p {
     margin: 20%;
     background-color: aliceblue;
     margin-top: 0%;
+    border-radius: 10px;
+    float: left;
 }
 .input[type=text]:focus {
     background-color: rgb(188, 238, 138);
     border: 3px solid rgb(188, 238, 138);
 }
-p label {
-
+p {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .wide {
     width: 100%;
     background-color: aquamarine;
+}
+label {
+    color: dimgray;
+    background-color: aliceblue;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#submitButton {
+    width: 110px;
+    box-sizing: border-box;
+    margin: 6px 0;
+    background-color: teal;
+    height: 35px;
+    border: 2px;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 62px;
 }
