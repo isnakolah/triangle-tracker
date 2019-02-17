@@ -1,4 +1,4 @@
-function start() {
+function start(sideA, sideB, sideC) {
   //Getting the sides value from the HTML as floats
 var sideA = parseFloat(document.getElementById("sideA").value)
 var sideB = parseFloat(document.getElementById("sideB").value)
@@ -20,9 +20,10 @@ if (Math.pow(smallSides[0], 2)+Math.pow(smallSides[1], 2)=== Math.pow(max, 2)) {
 } else if (smallSides[0] === smallSides[1]) || smallSides[0] === max || smallSides[1] === max {
   alert("This is an isosceles triangle")
 } else if (smallSides[0] !== smallSides[1] || smallSides[0] !== max || smallSides[1] !== max ) {
-  alert("The triangle ")
+  alert("The triangle " sideA+ ", "+ sideB+ ", "+ sideC+ " "+"is a scalene triangle." )
 } else {
   alert("This is an equilaterial triangle")
 }
-
+start();
 }
+start();
