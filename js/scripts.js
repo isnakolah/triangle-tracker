@@ -6,13 +6,20 @@ var sideC = parseFloat(document.getElementById("sideC"))
 //making all sides to be in an array.
 let allSides = [sideA, sideB, sideC]
 //Getting the maximum side.
-function maxSide() {
   let max = Math.max.apply(null, allSides)
-}
 //Arranging the sides in ascending order.
 allSides = allSides.sort((a, b) => a-b );
 smallSides = allSides.slice();
 smallSides.length = 2; //Retains the first two entities of the array.
-console.log(smallSides[0])
-
 //remember to use the += operator
+if (Math.pow(smallSides[0], 2)+Math.pow(smallSides[1], 2)= Math.pow(max, 2)) {
+  alert('A right angled triangle');
+} else if (smallSides[0]+smallSides[1]<=max) {
+  alert("Not a triangle")
+} else if (smallSides[0] === smallSides[1]) || smallSides[0] === max || smallSides[1] === max {
+  alert("This is an isosceles triangle")
+} else if (smallSides[0] !== smallSides[1] || smallSides[0] !== max || smallSides[1] !== max ) {
+  alert("This is a scalene triangle")
+} else {
+  alert("This is an equilaterial triangle")
+}
