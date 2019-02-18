@@ -6,31 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script>alert("    Hello \n    Feel free to try out your measurements  :)\n    Get to know what triangles it forms.\n    Have fun!!  ;) ")</script>
+    <!--<script>alert("    Hello \n    Feel free to try out your measurements  :)\n    Get to know what triangles it forms.\n    Have fun!!  ;) ")</script>-->
 </head>
 <body>
-    <div>
+    <div class="whole">
         <div class="heading">
           <h1>What triangle is it?</h1>
         </div>
-        <p>Input the values to know what type of triangle it is.</p>
+        <p id="paragraph">Input the values to know what type of triangle it is.</p>
         <!--Making the inputs for the sides and making a minimum value-->
         <form id="input">
-          <label for="sideA">Side 1:</label> 
-          <input type="number" name="sideA" value="" id="sideA" min="0.01" step="0.01" class="input"><br><br>
-          <label for="sideB">Side 2:</label>
-          <input type="number" name="sideB" value="" id="sideB" min="0.01" step="0.01" class="input"><br><br> <!--This implies that it has an Id of sideB for refrencing with the javascript and a minimum value of 0.01 and maximum of two decimal places-->
-          <label for="sideC">Side 3:</label>
-          <input type="number" name="sideC" value="" id="sideC" min="0.01" step="0.01" class="input"><br><br> 
-          <button onclick="submitIt()" id="submitButton">Submit</button>
-          <div class="output">
-              <p id="jsOutput"></p>
-            </div>
+          <div id="inputlabels">
+            <label for="sideA">Side 1:</label> 
+            <input type="number" name="sideA" value="" id="sideA" min="0.01" step="0.01" class="input"><br><br>
+            <label for="sideB">Side 2:</label>
+            <input type="number" name="sideB" value="" id="sideB" min="0.01" step="0.01" class="input"><br><br> <!--This implies that it has an Id of sideB for refrencing with the javascript and a minimum value of 0.01 and maximum of two decimal places-->
+            <label for="sideC">Side 3:</label>
+            <input type="number" name="sideC" value="" id="sideC" min="0.01" step="0.01" class="input"><br><br> 
+            <button onclick="submitIt()" id="submitButton">Submit</button>
+           <div class="output">
+            <p id="jsOutput">my best pet is a dog. It loves eating so much and i use alot of money from buying food</p>
+          </div>
         </form>
-        <div class="output">
-          <p id="jsOutput">trdfgjhkl;'jkhfgdstryuio</p>
-        </div>
-  </div> 
+    </div>
 </body>
 <footer>
   <!--Making the html file to load first then the javascript file later-->
