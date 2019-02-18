@@ -3,6 +3,8 @@
 #### By **Daniel Nakolah**
 ## Description
 This web Application written in javascript is a platform where one can input three numbers greater than zero and then an alert message will be displayed showing whether or not it is a triangle, and if it is it will display what type of triangle it forms.
+Inorder for the measurements you entered to form a triangle; 
+* The sum of twosides ought to be greater than the sum of three sides.
 ## Setup/Installation Requirements
 * Access my GitHub account.
 * CLick on the triangle-tracker.
