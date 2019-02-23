@@ -30,7 +30,7 @@ function submitIt(){
       alert("The measurements " +sideA + ", "+ sideB+ ", "+ sideC+ " "+"do not form triangle." );
      } else if (smallSides[0] === smallSides[1] && smallSides[0]=== max || smallSides[0] === max ||  smallSides[1] === max)  {
       alert("The measurements " +sideA + ", "+ sideB+ ", "+ sideC+ " "+"constitute to an isosceles triangle." );
-    } else if (smallSides[0] !== smallSides[1] && smallSides[0] !== max) {
+    } else if (smallSides[0] !== smallSides[1] && smallSides[0] !== max && smallSides[1] !== max) {
       alert("The measurements " +sideA+ ", "+ sideB+ ", "+ sideC+ " "+"make up a scalene triangle." );
     } else {
       alert("The measurements "+ sideA+ ", "+ sideB+ ", "+ sideC+ " "+"bring an error, please contact developer for more information." );
